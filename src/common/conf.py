@@ -5,7 +5,7 @@ from dotenv import load_dotenv, find_dotenv
 load_dotenv(find_dotenv(".env.default"))
 load_dotenv(override=True)
 
-DISCORD_BOT_TOKEN = os.getenv("BOT_TOKEN")
+DISCORD_BOT_TOKEN = os.getenv("MTA5NTIzNjk3MTMzMDI5MzgxMA.GjYbCg.MBlZRLp5gthks0eAwoY0xltz1JqN9yjp7Yi6ug")
 
 if not DISCORD_BOT_TOKEN:
     print("Bot token is not provided. Enter it here or use .env:")
